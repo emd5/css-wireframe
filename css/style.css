@@ -1,7 +1,3 @@
-* {
-  /* border: 1px red solid; */
-}
-
 body{
   margin: 0;
 }
@@ -11,7 +7,6 @@ nav{
   width: 100%;
   background-color: #333;
   padding-top: 5px;
-  
 }
 
 ul{
@@ -19,7 +14,6 @@ ul{
   display: inline-flex;
   margin: auto;
   width: 100%;
-  
 }
 
 li{
@@ -36,7 +30,7 @@ a{
   text-decoration: none;
 }
 
-p a:hover{
+ li:hover{
   background-color: black;
   color: white;
 }
@@ -52,10 +46,6 @@ main{
   padding-top: 10px;
 }
 
-/* #row1{
-
-} */
-
 #row1 img{
   margin-top: 40px;
 }
@@ -65,9 +55,8 @@ main{
   columns: 3;
 }
 
-
 #row2 img{
-  width: 32%;
+  width: 27%;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -85,11 +74,24 @@ main{
 }
 
 #row3 p{
-  width: 480px;
+  width: 400px;
   height: 400px;
   overflow: scroll;
 }
 
+button{
+  line-height: 3em;
+  background-color: black;
+  padding: 10px;
+  color: white;
+  width: 200px;
+  border-radius: 17px;
+}
+
+button:hover{
+  background-color: gray;
+  color: black;
+}
 
 footer{
   border: 1px blue solid;
@@ -97,87 +99,5 @@ footer{
   display: block;
   width: 100%;
   background-color: #333;
-
 }
 
-
-
-/* body{
-  margin: 0px;
-}
-
-nav{
-  display: block;
-  width: 100%;
-  background-color: #333;
-}
-
-nav ul{
-  margin: auto;
-  width: 80%;
-}
-
-ul{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-li{
-  display: inline-block;
-  padding: 20px;
-}
-
-li a{
-  color: gray;
-  font-family: sans-serif;
-  color: gray;
-  text-decoration: none;
-  padding: 20px 10px;
-}
-
- li a:hover{
-  background-color: black;
-  color: white;
-}
-
-
-main{
-  margin-top: 5em;
-  height: 1000px;
-}
-
-main span{
-  padding: 0px 1px;
-}
-
-div{
-  margin: auto;
-  width: 80%;
-}
-
-img:nth-child(3){
-  padding-right: 5px;
-}
-
-p {
-  width: 480px;
-  height: 400px;
-  overflow: scroll;
-
-}
-
-p img:last-child{
-  float: left;
-}
-
-
-footer{
-  background-color: #333;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-}
-*/
